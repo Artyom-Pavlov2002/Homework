@@ -1,0 +1,28 @@
+#include <iostream>
+#include <vector>
+#include <cstdlib> 
+
+using namespace std;
+
+int main()
+{
+int n;
+cin >> n;
+int arr = new int [n];
+    for(int i = 0; i < n; i++)
+cin >> n;
+int m,l; //пара чисел
+int k = 0; //число совпадений с парой
+    for(int i = 0; i < n; i++)
+{
+    if(arr[i] == m)
+k++;
+    if(arr[i] == l)
+k++;
+}
+    if(k => 2)
+cout << "true";
+    else
+cout << "false";
+return 0;
+}
